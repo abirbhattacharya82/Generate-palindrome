@@ -14,4 +14,4 @@ function generatePalindrome(s) {
         return z;
     }
 }
-module.exports= generatePalindrome;
+module.exports = generatePalindrome;
