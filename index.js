@@ -27,5 +27,10 @@ function generatePalindrome(s)
         return z;
     }
 }
-
+function main()
+{
+    console.log("Home");
+}
 module.exports = generatePalindrome;
+module.exports = isPalindrome;
+module.exports = main;
