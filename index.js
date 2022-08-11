@@ -1,12 +1,12 @@
-function generatePalindrome(s) {
-    var x = s.reverse();
-    if (s == x) {
-        return s;
+function passwordrandomgenerate(length) {
+    var result = '';
+    var characters = '12345678!@#$%^&*()_+=-ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+    var charactersLength = characters.length;
+    for (var i = 0; i < length; i++) {
+        result += characters.charAt(Math.floor(Math.random() *
+            charactersLength));
     }
-    else
-    {
-        var z=s+x;
-        return z;
-    }
+    return result;
 }
-export default generatePalindrome;
+
+module.exports = passwordrandomgenerate;
