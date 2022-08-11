@@ -1,6 +1,11 @@
 function generatePalindrome(s) {
-    var x = s.reverse();
-    if (s == x) {
+    var x="";
+    for(var i=0;i<s.length;i++)
+    {
+        x=s[i]+x;
+    }
+    if(x==s)
+    {
         return s;
     }
     else
@@ -9,4 +14,4 @@ function generatePalindrome(s) {
         return z;
     }
 }
-export default generatePalindrome;
+module.exports= generatePalindrome;
