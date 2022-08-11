@@ -1,0 +1,24 @@
+{
+  "name": "generate-palindrome",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abirbhattacharya82/Generate-palindrome.git"
+  },
+  "keywords": [
+    "palindrome",
+    "generate",
+    "generate-palindrome"
+  ],
+  "author": "abir82",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abirbhattacharya82/Generate-palindrome/issues"
+  },
+  "homepage": "https://github.com/abirbhattacharya82/Generate-palindrome#readme"
+}
