@@ -27,3 +27,5 @@ function generatePalindrome(s)
         return z;
     }
 }
+
+module.exports = generatePalindrome;
